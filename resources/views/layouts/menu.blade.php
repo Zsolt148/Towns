@@ -23,3 +23,11 @@
 </li>
 
 
+<li class="nav-item">
+    <a href="{{ route('towns.index') }}"
+       class="nav-link {{ Request::is('towns*') ? 'active' : '' }}">
+        <p>Towns</p>
+    </a>
+</li>
+
+

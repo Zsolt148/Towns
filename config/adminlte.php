@@ -235,18 +235,29 @@ return [
         [
             'text'        => 'Posts',
             'url'         => 'post2s',
+            'active'      => ['admin/post2s*'],
             'icon'        => 'far fa-fw fa-file',
         ],
 
+        // ADMIN area
         [
             'text'        => 'Counties',
             'url'         => 'admin/counties',
+            'active'      => ['admin/counties*'],
+            'can'         => 'admin',
+        ],
+
+        [
+            'text'        => 'Towns',
+            'url'         => 'admin/towns',
+            'active'      => ['admin/towns*'],
             'can'         => 'admin',
         ],
 
         [
             'text'        => 'Users',
             'url'         => 'admin/users',
+            'active'      => ['admin/users*'],
             'icon'        => 'far fa-fw fa-user',
             'can'         => 'admin',
         ],
