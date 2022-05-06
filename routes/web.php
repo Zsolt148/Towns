@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\Post2Controller;
 use App\Http\Controllers\PostController;
+use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -15,10 +16,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// GUEST routes
 Route::get('/', function () {
     return view('index');
 })->name('home');
 
+// USERS routes
 Route::prefix('portal')
     ->middleware(['auth', 'role:user'])
     ->group(function () {
@@ -26,15 +29,15 @@ Route::prefix('portal')
         Route::get('/dashboard', function () {
             return view('dashboard');
         })->name('dashboard');
-
-        Route::prefix('admin')
-            ->name('admin:')
-            ->middleware(['role:admin'])
-            ->group(function () {
-                Route::resource('users', \App\Http\Controllers\Admin\UserController::class);
-        });
-
 });
+
+// ADMIN routes
+Route::prefix('admin')
+    ->name('admin:')
+    ->middleware(['auth', 'role:admin'])
+    ->group(function () {
+        Route::resource('users', UserController::class);
+    });
 
 require __DIR__.'/auth.php';
 
