@@ -238,7 +238,6 @@ return [
             'icon'        => 'far fa-fw fa-file',
         ],
 
-        ['header' => 'Admin'],
         [
             'text'        => 'Users',
             'url'         => 'admin/users',

@@ -2,7 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Requests\CreateUserRequest;
 use App\Http\Requests\UpdateUserRequest;
 use App\Repositories\UserRepository;
 use App\Http\Controllers\AppBaseController;
@@ -34,34 +33,6 @@ class UserController extends AppBaseController
 
         return view('users.index')
             ->with('users', $users);
-    }
-
-    /**
-     * Show the form for creating a new User.
-     *
-     * @return Response
-     */
-    public function create()
-    {
-        return view('users.create');
-    }
-
-    /**
-     * Store a newly created User in storage.
-     *
-     * @param CreateUserRequest $request
-     *
-     * @return Response
-     */
-    public function store(CreateUserRequest $request)
-    {
-        $input = $request->all();
-
-        $user = $this->userRepository->create($input);
-
-        Flash::success('User saved successfully.');
-
-        return redirect(route('admin:users.index'));
     }
 
     /**
