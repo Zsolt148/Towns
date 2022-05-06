@@ -30,7 +30,7 @@ class TownController extends AppBaseController
      */
     public function index(Request $request)
     {
-        $towns = $this->townRepository->all();
+        $towns = $this->townRepository->allQuery()->with('county')->get();
 
         return view('towns.index')
             ->with('towns', $towns);

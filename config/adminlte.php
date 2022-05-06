@@ -255,6 +255,13 @@ return [
         ],
 
         [
+            'text'        => 'Populations',
+            'url'         => 'admin/populations',
+            'active'      => ['admin/populations*'],
+            'can'         => 'admin',
+        ],
+
+        [
             'text'        => 'Users',
             'url'         => 'admin/users',
             'active'      => ['admin/users*'],

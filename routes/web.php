@@ -40,6 +40,8 @@ Route::prefix('admin')
 
         Route::resource('towns', App\Http\Controllers\TownController::class);
 
+        Route::resource('populations', App\Http\Controllers\PopulationController::class);
+
     });
 
 require __DIR__.'/auth.php';
@@ -47,4 +49,3 @@ require __DIR__.'/auth.php';
 Route::resource('post2s', App\Http\Controllers\Post2Controller::class);
 Route::get('posts', 'App\Http\Controllers\Post2Controller@getall')->name('posts.index');
 Route::get('posts/{id}', 'App\Http\Controllers\Post2Controller@show2')->name('posts.show');
-

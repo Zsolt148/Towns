@@ -31,3 +31,11 @@
 </li>
 
 
+<li class="nav-item">
+    <a href="{{ route('populations.index') }}"
+       class="nav-link {{ Request::is('populations*') ? 'active' : '' }}">
+        <p>Populations</p>
+    </a>
+</li>
+
+
