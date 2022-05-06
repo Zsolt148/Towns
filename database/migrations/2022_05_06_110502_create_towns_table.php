@@ -19,6 +19,7 @@ class CreateTownsTable extends Migration
             $table->string('name');
             $table->boolean('county_seat')->default(false);
             $table->boolean('county_level')->default(false);
+            $table->softDeletes();
             $table->timestamps();
         });
     }

@@ -19,6 +19,7 @@ class CreatePopulationsTable extends Migration
             $table->year('year');
             $table->unsignedInteger('women');
             $table->unsignedInteger('total');
+            $table->softDeletes();
             $table->timestamps();
         });
     }

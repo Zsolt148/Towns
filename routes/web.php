@@ -36,7 +36,10 @@ Route::prefix('admin')
     ->name('admin:')
     ->middleware(['auth', 'role:admin'])
     ->group(function () {
+
         Route::resource('users', UserController::class);
+
+        Route::resource('counties', App\Http\Controllers\CountyController::class);
     });
 
 require __DIR__.'/auth.php';

@@ -239,6 +239,12 @@ return [
         ],
 
         [
+            'text'        => 'Counties',
+            'url'         => 'admin/counties',
+            'can'         => 'admin',
+        ],
+
+        [
             'text'        => 'Users',
             'url'         => 'admin/users',
             'icon'        => 'far fa-fw fa-user',

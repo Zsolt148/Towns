@@ -2,84 +2,155 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\County;
+use App\Http\Requests\CreateCountyRequest;
+use App\Http\Requests\UpdateCountyRequest;
+use App\Repositories\CountyRepository;
+use App\Http\Controllers\AppBaseController;
 use Illuminate\Http\Request;
+use Flash;
+use Response;
 
-class CountyController extends Controller
+class CountyController extends AppBaseController
 {
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function index()
+    /** @var CountyRepository $countyRepository*/
+    private $countyRepository;
+
+    public function __construct(CountyRepository $countyRepo)
     {
-        //
+        $this->countyRepository = $countyRepo;
     }
 
     /**
-     * Show the form for creating a new resource.
+     * Display a listing of the County.
      *
-     * @return \Illuminate\Http\Response
+     * @param Request $request
+     *
+     * @return Response
+     */
+    public function index(Request $request)
+    {
+        $counties = $this->countyRepository->all();
+
+        return view('counties.index')
+            ->with('counties', $counties);
+    }
+
+    /**
+     * Show the form for creating a new County.
+     *
+     * @return Response
      */
     public function create()
     {
-        //
+        return view('counties.create');
     }
 
     /**
-     * Store a newly created resource in storage.
+     * Store a newly created County in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
+     * @param CreateCountyRequest $request
+     *
+     * @return Response
      */
-    public function store(Request $request)
+    public function store(CreateCountyRequest $request)
     {
-        //
+        $input = $request->all();
+
+        $county = $this->countyRepository->create($input);
+
+        Flash::success('County saved successfully.');
+
+        return redirect(route('admin:counties.index'));
     }
 
     /**
-     * Display the specified resource.
+     * Display the specified County.
      *
-     * @param  \App\Models\County  $county
-     * @return \Illuminate\Http\Response
+     * @param int $id
+     *
+     * @return Response
      */
-    public function show(County $county)
+    public function show($id)
     {
-        //
+        $county = $this->countyRepository->find($id);
+
+        if (empty($county)) {
+            Flash::error('County not found');
+
+            return redirect(route('admin:counties.index'));
+        }
+
+        return view('counties.show')->with('county', $county);
     }
 
     /**
-     * Show the form for editing the specified resource.
+     * Show the form for editing the specified County.
      *
-     * @param  \App\Models\County  $county
-     * @return \Illuminate\Http\Response
+     * @param int $id
+     *
+     * @return Response
      */
-    public function edit(County $county)
+    public function edit($id)
     {
-        //
+        $county = $this->countyRepository->find($id);
+
+        if (empty($county)) {
+            Flash::error('County not found');
+
+            return redirect(route('admin:counties.index'));
+        }
+
+        return view('counties.edit')->with('county', $county);
     }
 
     /**
-     * Update the specified resource in storage.
+     * Update the specified County in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\County  $county
-     * @return \Illuminate\Http\Response
+     * @param int $id
+     * @param UpdateCountyRequest $request
+     *
+     * @return Response
      */
-    public function update(Request $request, County $county)
+    public function update($id, UpdateCountyRequest $request)
     {
-        //
+        $county = $this->countyRepository->find($id);
+
+        if (empty($county)) {
+            Flash::error('County not found');
+
+            return redirect(route('admin:counties.index'));
+        }
+
+        $county = $this->countyRepository->update($request->all(), $id);
+
+        Flash::success('County updated successfully.');
+
+        return redirect(route('admin:counties.index'));
     }
 
     /**
-     * Remove the specified resource from storage.
+     * Remove the specified County from storage.
      *
-     * @param  \App\Models\County  $county
-     * @return \Illuminate\Http\Response
+     * @param int $id
+     *
+     * @throws \Exception
+     *
+     * @return Response
      */
-    public function destroy(County $county)
+    public function destroy($id)
     {
-        //
+        $county = $this->countyRepository->find($id);
+
+        if (empty($county)) {
+            Flash::error('County not found');
+
+            return redirect(route('admin:counties.index'));
+        }
+
+        $this->countyRepository->delete($id);
+
+        Flash::success('County deleted successfully.');
+
+        return redirect(route('admin:counties.index'));
     }
 }
