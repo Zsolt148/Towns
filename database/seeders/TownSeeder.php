@@ -26,8 +26,8 @@ class TownSeeder extends Seeder
             ], [
                 'name' => $data->name,
                 'county_id' => $data->county_id,
-                'county_seat' => $data->county_seat,
-                'county_level' => $data->county_level,
+                'county_seat' => $data->county_seat == 0 ? true : false,
+                'county_level' => $data->county_level == 0 ? true : false,
             ]);
         }
     }
