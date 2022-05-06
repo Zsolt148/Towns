@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "name": "Békés"
+    },
+    {
+        "id": 2,
+        "name": "Heves"
+    },
+    {
+        "id": 3,
+        "name": "Borsod-Abaúj-Zemplén"
+    },
+    {
+        "id": 4,
+        "name": "Somogy"
+    },
+    {
+        "id": 5,
+        "name": "Fejér"
+    },
+    {
+        "id": 6,
+        "name": "Vas"
+    },
+    {
+        "id": 7,
+        "name": "Pest"
+    },
+    {
+        "id": 8,
+        "name": "Csongrád"
+    },
+    {
+        "id": 9,
+        "name": "Zala"
+    },
+    {
+        "id": 10,
+        "name": "Budapest"
+    },
+    {
+        "id": 11,
+        "name": "Bács-Kiskun"
+    },
+    {
+        "id": 12,
+        "name": "Baranya"
+    },
+    {
+        "id": 13,
+        "name": "Tolna"
+    },
+    {
+        "id": 14,
+        "name": "Nógrád"
+    },
+    {
+        "id": 15,
+        "name": "Jász-Nagykun-Szolnok"
+    },
+    {
+        "id": 16,
+        "name": "Hajdú-Bihar"
+    },
+    {
+        "id": 17,
+        "name": "Komárom-Esztergom"
+    },
+    {
+        "id": 18,
+        "name": "Veszprém"
+    },
+    {
+        "id": 19,
+        "name": "Győr-Moson-Sopron"
+    },
+    {
+        "id": 20,
+        "name": "Szabolcs-Szatmár-Bereg"
+    }
+]

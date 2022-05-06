@@ -19,6 +19,7 @@ class User extends Authenticatable
      */
     protected $fillable = [
         'name',
+        'role',
         'email',
         'password',
     ];
@@ -40,5 +41,13 @@ class User extends Authenticatable
      */
     protected $casts = [
         'email_verified_at' => 'datetime',
+    ];
+
+    const ROLE_USER = 'user';
+    const ROLE_ADMIN = 'admin';
+
+    const ROLES = [
+        self::ROLE_USER => 'User',
+        self::ROLE_ADMIN => 'Admin'
     ];
 }

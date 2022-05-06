@@ -1,0 +1,2578 @@
+[
+    {
+        "id": 1,
+        "name": "Mindszent",
+        "county_id": 8,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 2,
+        "name": "Komádi",
+        "county_id": 16,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 3,
+        "name": "Tiszacsege",
+        "county_id": 16,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 4,
+        "name": "Nyíradony",
+        "county_id": 16,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 5,
+        "name": "Rákóczifalva",
+        "county_id": 15,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 6,
+        "name": "Mezőkeresztes",
+        "county_id": 3,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 7,
+        "name": "Nagyatád",
+        "county_id": 4,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 8,
+        "name": "Tatabánya",
+        "county_id": 17,
+        "county_seat": -1,
+        "county_level": -1
+    },
+    {
+        "id": 9,
+        "name": "Tótkomlós",
+        "county_id": 1,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 10,
+        "name": "Lenti",
+        "county_id": 9,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 11,
+        "name": "Körösladány",
+        "county_id": 1,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 12,
+        "name": "Barcs",
+        "county_id": 4,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 13,
+        "name": "Harkány",
+        "county_id": 12,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 14,
+        "name": "Sülysáp",
+        "county_id": 7,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 15,
+        "name": "Tura",
+        "county_id": 7,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 16,
+        "name": "Pilisvörösvár",
+        "county_id": 7,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 17,
+        "name": "Mohács",
+        "county_id": 12,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 18,
+        "name": "Budapest 16",
+        "county_id": 10,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 19,
+        "name": "Százhalombatta",
+        "county_id": 7,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 20,
+        "name": "Nyíregyháza",
+        "county_id": 20,
+        "county_seat": -1,
+        "county_level": -1
+    },
+    {
+        "id": 21,
+        "name": "Gödöllő",
+        "county_id": 7,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 22,
+        "name": "Veszprém",
+        "county_id": 18,
+        "county_seat": -1,
+        "county_level": -1
+    },
+    {
+        "id": 23,
+        "name": "Kiskőrös",
+        "county_id": 11,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 24,
+        "name": "Balatonföldvár",
+        "county_id": 4,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 25,
+        "name": "Martfű",
+        "county_id": 15,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 26,
+        "name": "Mezőhegyes",
+        "county_id": 1,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 27,
+        "name": "Medgyesegyháza",
+        "county_id": 1,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 28,
+        "name": "Törökszentmiklós",
+        "county_id": 15,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 29,
+        "name": "Pomáz",
+        "county_id": 7,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 30,
+        "name": "Fertőd",
+        "county_id": 19,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 31,
+        "name": "Dunaharaszti",
+        "county_id": 7,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 32,
+        "name": "Putnok",
+        "county_id": 3,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 33,
+        "name": "Komló",
+        "county_id": 12,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 34,
+        "name": "Dunavecse",
+        "county_id": 11,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 35,
+        "name": "Tab",
+        "county_id": 4,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 36,
+        "name": "Baktalórántháza",
+        "county_id": 20,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 37,
+        "name": "Hajdúhadház",
+        "county_id": 16,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 38,
+        "name": "Pálháza",
+        "county_id": 3,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 39,
+        "name": "Vásárosnamény",
+        "county_id": 20,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 40,
+        "name": "Göd",
+        "county_id": 7,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 41,
+        "name": "Kisvárda",
+        "county_id": 20,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 42,
+        "name": "Budapest 21",
+        "county_id": 10,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 43,
+        "name": "Piliscsaba",
+        "county_id": 7,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 44,
+        "name": "Ajak",
+        "county_id": 20,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 45,
+        "name": "Püspökladány",
+        "county_id": 16,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 46,
+        "name": "Érd",
+        "county_id": 7,
+        "county_seat": 0,
+        "county_level": -1
+    },
+    {
+        "id": 47,
+        "name": "Biharkeresztes",
+        "county_id": 16,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 48,
+        "name": "Pilis",
+        "county_id": 7,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 49,
+        "name": "Budapest 15",
+        "county_id": 10,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 50,
+        "name": "Kemecse",
+        "county_id": 20,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 51,
+        "name": "Hódmezővásárhely",
+        "county_id": 8,
+        "county_seat": 0,
+        "county_level": -1
+    },
+    {
+        "id": 52,
+        "name": "Hajdúböszörmény",
+        "county_id": 16,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 53,
+        "name": "Velence",
+        "county_id": 5,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 54,
+        "name": "Salgótarján",
+        "county_id": 14,
+        "county_seat": -1,
+        "county_level": -1
+    },
+    {
+        "id": 55,
+        "name": "Kecel",
+        "county_id": 11,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 56,
+        "name": "Szécsény",
+        "county_id": 14,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 57,
+        "name": "Budapest 01",
+        "county_id": 10,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 58,
+        "name": "Budapest 18",
+        "county_id": 10,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 59,
+        "name": "Budapest 10",
+        "county_id": 10,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 60,
+        "name": "Sellye",
+        "county_id": 12,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 61,
+        "name": "Budakalász",
+        "county_id": 7,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 62,
+        "name": "Dévaványa",
+        "county_id": 1,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 63,
+        "name": "Körmend",
+        "county_id": 6,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 64,
+        "name": "Zamárdi",
+        "county_id": 4,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 65,
+        "name": "Kenderes",
+        "county_id": 15,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 66,
+        "name": "Budapest 12",
+        "county_id": 10,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 67,
+        "name": "Cegléd",
+        "county_id": 7,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 68,
+        "name": "Kondoros",
+        "county_id": 1,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 69,
+        "name": "Csepreg",
+        "county_id": 6,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 70,
+        "name": "Fót",
+        "county_id": 7,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 71,
+        "name": "Hajdúszoboszló",
+        "county_id": 16,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 72,
+        "name": "Őrbottyán",
+        "county_id": 7,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 73,
+        "name": "Nyírlugos",
+        "county_id": 20,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 74,
+        "name": "Újszász",
+        "county_id": 15,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 75,
+        "name": "Keszthely",
+        "county_id": 9,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 76,
+        "name": "Lajosmizse",
+        "county_id": 11,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 77,
+        "name": "Elek",
+        "county_id": 1,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 78,
+        "name": "Ajka",
+        "county_id": 18,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 79,
+        "name": "Ibrány",
+        "county_id": 20,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 80,
+        "name": "Budapest 19",
+        "county_id": 10,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 81,
+        "name": "Aszód",
+        "county_id": 7,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 82,
+        "name": "Zalalövő",
+        "county_id": 9,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 83,
+        "name": "Dunaújváros",
+        "county_id": 5,
+        "county_seat": 0,
+        "county_level": -1
+    },
+    {
+        "id": 84,
+        "name": "Baja",
+        "county_id": 11,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 85,
+        "name": "Siófok",
+        "county_id": 4,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 86,
+        "name": "Tiszafüred",
+        "county_id": 15,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 87,
+        "name": "Bácsalmás",
+        "county_id": 11,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 88,
+        "name": "Bátonyterenye",
+        "county_id": 14,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 89,
+        "name": "Balatonkenese",
+        "county_id": 18,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 90,
+        "name": "Újhartyán",
+        "county_id": 7,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 91,
+        "name": "Ráckeve",
+        "county_id": 7,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 92,
+        "name": "Budapest 17",
+        "county_id": 10,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 93,
+        "name": "Zsámbék",
+        "county_id": 7,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 94,
+        "name": "Zirc",
+        "county_id": 18,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 95,
+        "name": "Záhony",
+        "county_id": 20,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 96,
+        "name": "Berhida",
+        "county_id": 18,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 97,
+        "name": "Halásztelek",
+        "county_id": 7,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 98,
+        "name": "Hatvan",
+        "county_id": 2,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 99,
+        "name": "Vámospércs",
+        "county_id": 16,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 100,
+        "name": "Adony",
+        "county_id": 5,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 101,
+        "name": "Kerepes",
+        "county_id": 7,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 102,
+        "name": "Fertőszentmiklós",
+        "county_id": 19,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 103,
+        "name": "Tokaj",
+        "county_id": 3,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 104,
+        "name": "Hajós",
+        "county_id": 11,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 105,
+        "name": "Mezőtúr",
+        "county_id": 15,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 106,
+        "name": "Mándok",
+        "county_id": 20,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 107,
+        "name": "Esztergom",
+        "county_id": 17,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 108,
+        "name": "Veresegyház",
+        "county_id": 7,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 109,
+        "name": "Berettyóújfalu",
+        "county_id": 16,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 110,
+        "name": "Polgár",
+        "county_id": 16,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 111,
+        "name": "Hajdúsámson",
+        "county_id": 16,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 112,
+        "name": "Szeghalom",
+        "county_id": 1,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 113,
+        "name": "Tolna",
+        "county_id": 13,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 114,
+        "name": "Balmazújváros",
+        "county_id": 16,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 115,
+        "name": "Sárbogárd",
+        "county_id": 5,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 116,
+        "name": "Bonyhád",
+        "county_id": 13,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 117,
+        "name": "Abádszalók",
+        "county_id": 15,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 118,
+        "name": "Gyöngyöspata",
+        "county_id": 2,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 119,
+        "name": "Mezőcsát",
+        "county_id": 3,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 120,
+        "name": "Balatonalmádi",
+        "county_id": 18,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 121,
+        "name": "Karcag",
+        "county_id": 15,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 122,
+        "name": "Szarvas",
+        "county_id": 1,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 123,
+        "name": "Marcali",
+        "county_id": 4,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 124,
+        "name": "Aba",
+        "county_id": 5,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 125,
+        "name": "Budapest 09",
+        "county_id": 10,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 126,
+        "name": "Enying",
+        "county_id": 5,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 127,
+        "name": "Dabas",
+        "county_id": 7,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 128,
+        "name": "Csanádpalota",
+        "county_id": 8,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 129,
+        "name": "Budapest 04",
+        "county_id": 10,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 130,
+        "name": "Vecsés",
+        "county_id": 7,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 131,
+        "name": "Bóly",
+        "county_id": 12,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 132,
+        "name": "Örkény",
+        "county_id": 7,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 134,
+        "name": "Zalaszentgrót",
+        "county_id": 9,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 135,
+        "name": "Kunhegyes",
+        "county_id": 15,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 136,
+        "name": "Tamási",
+        "county_id": 13,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 137,
+        "name": "Ócsa",
+        "county_id": 7,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 138,
+        "name": "Tiszalök",
+        "county_id": 20,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 139,
+        "name": "Solt",
+        "county_id": 11,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 140,
+        "name": "Komárom",
+        "county_id": 17,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 141,
+        "name": "Nyírtelek",
+        "county_id": 20,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 142,
+        "name": "Kőszeg",
+        "county_id": 6,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 143,
+        "name": "Demecser",
+        "county_id": 20,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 144,
+        "name": "Kiskunmajsa",
+        "county_id": 11,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 145,
+        "name": "Máriapócs",
+        "county_id": 20,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 146,
+        "name": "Miskolc",
+        "county_id": 3,
+        "county_seat": -1,
+        "county_level": -1
+    },
+    {
+        "id": 147,
+        "name": "Nyergesújfalu",
+        "county_id": 17,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 148,
+        "name": "Mezőberény",
+        "county_id": 1,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 149,
+        "name": "Kistelek",
+        "county_id": 8,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 150,
+        "name": "Edelény",
+        "county_id": 3,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 151,
+        "name": "Ózd",
+        "county_id": 3,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 152,
+        "name": "Izsák",
+        "county_id": 11,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 153,
+        "name": "Nyékládháza",
+        "county_id": 3,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 154,
+        "name": "Dunakeszi",
+        "county_id": 7,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 155,
+        "name": "Csongrád",
+        "county_id": 8,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 156,
+        "name": "Pécs",
+        "county_id": 12,
+        "county_seat": -1,
+        "county_level": -1
+    },
+    {
+        "id": 157,
+        "name": "Szentgotthárd",
+        "county_id": 6,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 158,
+        "name": "Jászfényszaru",
+        "county_id": 15,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 159,
+        "name": "Sásd",
+        "county_id": 12,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 160,
+        "name": "Újfehértó",
+        "county_id": 20,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 161,
+        "name": "Mezőkovácsháza",
+        "county_id": 1,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 162,
+        "name": "Visegrád",
+        "county_id": 7,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 163,
+        "name": "Balatonfüred",
+        "county_id": 18,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 164,
+        "name": "Tiszakécske",
+        "county_id": 11,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 165,
+        "name": "Balassagyarmat",
+        "county_id": 14,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 166,
+        "name": "Szigethalom",
+        "county_id": 7,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 167,
+        "name": "Rudabánya",
+        "county_id": 3,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 168,
+        "name": "Fonyód",
+        "county_id": 4,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 169,
+        "name": "Gyönk",
+        "county_id": 13,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 170,
+        "name": "Tököl",
+        "county_id": 7,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 171,
+        "name": "Balatonfűzfő",
+        "county_id": 18,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 172,
+        "name": "Túrkeve",
+        "county_id": 15,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 173,
+        "name": "Vác",
+        "county_id": 7,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 174,
+        "name": "Igal",
+        "county_id": 4,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 175,
+        "name": "Kiskunfélegyháza",
+        "county_id": 11,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 176,
+        "name": "Soltvadkert",
+        "county_id": 11,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 177,
+        "name": "Budapest 23",
+        "county_id": 10,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 178,
+        "name": "Tiszavasvári",
+        "county_id": 20,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 179,
+        "name": "Sarkad",
+        "county_id": 1,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 180,
+        "name": "Hajdúnánás",
+        "county_id": 16,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 181,
+        "name": "Gyomaendrőd",
+        "county_id": 1,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 182,
+        "name": "Martonvásár",
+        "county_id": 5,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 183,
+        "name": "Maglód",
+        "county_id": 7,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 184,
+        "name": "Kisköre",
+        "county_id": 2,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 185,
+        "name": "Kecskemét",
+        "county_id": 11,
+        "county_seat": -1,
+        "county_level": -1
+    },
+    {
+        "id": 186,
+        "name": "Cigánd",
+        "county_id": 3,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 187,
+        "name": "Simontornya",
+        "county_id": 13,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 188,
+        "name": "Orosháza",
+        "county_id": 1,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 189,
+        "name": "Diósd",
+        "county_id": 7,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 190,
+        "name": "Tata",
+        "county_id": 17,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 191,
+        "name": "Fehérgyarmat",
+        "county_id": 20,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 192,
+        "name": "Szentes",
+        "county_id": 8,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 193,
+        "name": "Mór",
+        "county_id": 5,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 194,
+        "name": "Sopron",
+        "county_id": 19,
+        "county_seat": 0,
+        "county_level": -1
+    },
+    {
+        "id": 195,
+        "name": "Kunszentmiklós",
+        "county_id": 11,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 196,
+        "name": "Mélykút",
+        "county_id": 11,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 197,
+        "name": "Szabadszállás",
+        "county_id": 11,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 198,
+        "name": "Makó",
+        "county_id": 8,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 199,
+        "name": "Sárospatak",
+        "county_id": 3,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 200,
+        "name": "Kaba",
+        "county_id": 16,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 201,
+        "name": "Debrecen",
+        "county_id": 16,
+        "county_seat": -1,
+        "county_level": -1
+    },
+    {
+        "id": 202,
+        "name": "Csorvás",
+        "county_id": 1,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 203,
+        "name": "Kazincbarcika",
+        "county_id": 3,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 204,
+        "name": "Rétság",
+        "county_id": 14,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 205,
+        "name": "Balkány",
+        "county_id": 20,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 206,
+        "name": "Sümeg",
+        "county_id": 18,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 207,
+        "name": "Celldömölk",
+        "county_id": 6,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 208,
+        "name": "Bátaszék",
+        "county_id": 13,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 209,
+        "name": "Gyömrő",
+        "county_id": 7,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 210,
+        "name": "Kiskunhalas",
+        "county_id": 11,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 211,
+        "name": "Budapest 05",
+        "county_id": 10,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 212,
+        "name": "Szentendre",
+        "county_id": 7,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 213,
+        "name": "Csenger",
+        "county_id": 20,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 214,
+        "name": "Polgárdi",
+        "county_id": 5,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 215,
+        "name": "Szendrő",
+        "county_id": 3,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 216,
+        "name": "Herend",
+        "county_id": 18,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 217,
+        "name": "Devecser",
+        "county_id": 18,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 218,
+        "name": "Gárdony",
+        "county_id": 5,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 219,
+        "name": "Lébény",
+        "county_id": 19,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 220,
+        "name": "Isaszeg",
+        "county_id": 7,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 221,
+        "name": "Zalaegerszeg",
+        "county_id": 9,
+        "county_seat": -1,
+        "county_level": -1
+    },
+    {
+        "id": 222,
+        "name": "Vasvár",
+        "county_id": 6,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 223,
+        "name": "Nagymaros",
+        "county_id": 7,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 224,
+        "name": "Pannonhalma",
+        "county_id": 19,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 225,
+        "name": "Beled",
+        "county_id": 19,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 226,
+        "name": "Vép",
+        "county_id": 6,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 227,
+        "name": "Hévíz",
+        "county_id": 9,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 228,
+        "name": "Tiszaföldvár",
+        "county_id": 15,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 229,
+        "name": "Dunaföldvár",
+        "county_id": 13,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 230,
+        "name": "Mezőkövesd",
+        "county_id": 3,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 231,
+        "name": "Újkígyós",
+        "county_id": 1,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 232,
+        "name": "Fegyvernek",
+        "county_id": 15,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 233,
+        "name": "Sajószentpéter",
+        "county_id": 3,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 234,
+        "name": "Gyöngyös",
+        "county_id": 2,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 235,
+        "name": "Szekszárd",
+        "county_id": 13,
+        "county_seat": -1,
+        "county_level": -1
+    },
+    {
+        "id": 236,
+        "name": "Abony",
+        "county_id": 7,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 238,
+        "name": "Budapest 14",
+        "county_id": 10,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 239,
+        "name": "Budaörs",
+        "county_id": 7,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 240,
+        "name": "Gönc",
+        "county_id": 3,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 241,
+        "name": "Dorog",
+        "county_id": 17,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 242,
+        "name": "Tét",
+        "county_id": 19,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 243,
+        "name": "Jánossomorja",
+        "county_id": 19,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 244,
+        "name": "Hajdúdorog",
+        "county_id": 16,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 245,
+        "name": "Alsózsolca",
+        "county_id": 3,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 246,
+        "name": "Gyál",
+        "county_id": 7,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 247,
+        "name": "Badacsonytomaj",
+        "county_id": 18,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 248,
+        "name": "Gyula",
+        "county_id": 1,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 249,
+        "name": "Budapest 11",
+        "county_id": 10,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 250,
+        "name": "Mosonmagyaróvár",
+        "county_id": 19,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 251,
+        "name": "Nagykáta",
+        "county_id": 7,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 252,
+        "name": "Felsőzsolca",
+        "county_id": 3,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 253,
+        "name": "Nagyhalász",
+        "county_id": 20,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 254,
+        "name": "Budapest 22",
+        "county_id": 10,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 255,
+        "name": "Tát",
+        "county_id": 17,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 256,
+        "name": "Budapest 20",
+        "county_id": 10,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 257,
+        "name": "Bodajk",
+        "county_id": 5,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 258,
+        "name": "Dombrád",
+        "county_id": 20,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 259,
+        "name": "Budapest 08",
+        "county_id": 10,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 260,
+        "name": "Budapest 07",
+        "county_id": 10,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 261,
+        "name": "Kapuvár",
+        "county_id": 19,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 262,
+        "name": "Csorna",
+        "county_id": 19,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 263,
+        "name": "Nádudvar",
+        "county_id": 16,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 264,
+        "name": "Győr",
+        "county_id": 19,
+        "county_seat": -1,
+        "county_level": -1
+    },
+    {
+        "id": 265,
+        "name": "Nagyecsed",
+        "county_id": 20,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 266,
+        "name": "Nagykőrös",
+        "county_id": 7,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 267,
+        "name": "Mágocs",
+        "county_id": 12,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 268,
+        "name": "Tiszaújváros",
+        "county_id": 3,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 269,
+        "name": "Paks",
+        "county_id": 13,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 270,
+        "name": "Nagybajom",
+        "county_id": 4,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 271,
+        "name": "Lábatlan",
+        "county_id": 17,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 272,
+        "name": "Kaposvár",
+        "county_id": 4,
+        "county_seat": -1,
+        "county_level": -1
+    },
+    {
+        "id": 273,
+        "name": "Nyírmada",
+        "county_id": 20,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 274,
+        "name": "Balatonlelle",
+        "county_id": 4,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 275,
+        "name": "Rácalmás",
+        "county_id": 5,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 276,
+        "name": "Szerencs",
+        "county_id": 3,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 277,
+        "name": "Besenyszög",
+        "county_id": 15,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 278,
+        "name": "Tápiószele",
+        "county_id": 7,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 279,
+        "name": "Csurgó",
+        "county_id": 4,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 280,
+        "name": "Nagykanizsa",
+        "county_id": 9,
+        "county_seat": 0,
+        "county_level": -1
+    },
+    {
+        "id": 281,
+        "name": "Rakamaz",
+        "county_id": 20,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 282,
+        "name": "Biatorbágy",
+        "county_id": 7,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 283,
+        "name": "Répcelak",
+        "county_id": 6,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 284,
+        "name": "Szombathely",
+        "county_id": 6,
+        "county_seat": -1,
+        "county_level": -1
+    },
+    {
+        "id": 285,
+        "name": "Pápa",
+        "county_id": 18,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 286,
+        "name": "Békéscsaba",
+        "county_id": 1,
+        "county_seat": -1,
+        "county_level": -1
+    },
+    {
+        "id": 287,
+        "name": "Sátoraljaújhely",
+        "county_id": 3,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 288,
+        "name": "Albertirsa",
+        "county_id": 7,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 289,
+        "name": "Jánoshalma",
+        "county_id": 11,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 290,
+        "name": "Encs",
+        "county_id": 3,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 291,
+        "name": "Budapest 06",
+        "county_id": 10,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 292,
+        "name": "Lőrinci",
+        "county_id": 2,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 293,
+        "name": "Szigetvár",
+        "county_id": 12,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 294,
+        "name": "Szigetszentmiklós",
+        "county_id": 7,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 295,
+        "name": "Jászapáti",
+        "county_id": 15,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 296,
+        "name": "Sándorfalva",
+        "county_id": 8,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 297,
+        "name": "Székesfehérvár",
+        "county_id": 5,
+        "county_seat": -1,
+        "county_level": -1
+    },
+    {
+        "id": 298,
+        "name": "Kisújszállás",
+        "county_id": 15,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 299,
+        "name": "Szentlőrinc",
+        "county_id": 12,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 300,
+        "name": "Nagykálló",
+        "county_id": 20,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 301,
+        "name": "Jászkisér",
+        "county_id": 15,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 302,
+        "name": "Mátészalka",
+        "county_id": 20,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 303,
+        "name": "Derecske",
+        "county_id": 16,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 304,
+        "name": "Bük",
+        "county_id": 6,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 305,
+        "name": "Budapest 02",
+        "county_id": 10,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 306,
+        "name": "Vaja",
+        "county_id": 20,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 307,
+        "name": "Budapest 13",
+        "county_id": 10,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 308,
+        "name": "Nagymányok",
+        "county_id": 13,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 309,
+        "name": "Bábolna",
+        "county_id": 17,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 310,
+        "name": "Dombóvár",
+        "county_id": 13,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 311,
+        "name": "Kistarcsa",
+        "county_id": 7,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 312,
+        "name": "Balatonboglár",
+        "county_id": 4,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 313,
+        "name": "Kunszentmárton",
+        "county_id": 15,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 314,
+        "name": "Őriszentpéter",
+        "county_id": 6,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 315,
+        "name": "Battonya",
+        "county_id": 1,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 316,
+        "name": "Tompa",
+        "county_id": 11,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 317,
+        "name": "Lengyeltóti",
+        "county_id": 4,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 318,
+        "name": "Ercsi",
+        "county_id": 5,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 319,
+        "name": "Bélapátfalva",
+        "county_id": 2,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 320,
+        "name": "Monor",
+        "county_id": 7,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 321,
+        "name": "Siklós",
+        "county_id": 12,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 322,
+        "name": "Nyírbátor",
+        "county_id": 20,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 323,
+        "name": "Onga",
+        "county_id": 3,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 324,
+        "name": "Pacsa",
+        "county_id": 9,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 325,
+        "name": "Szeged",
+        "county_id": 8,
+        "county_seat": -1,
+        "county_level": -1
+    },
+    {
+        "id": 326,
+        "name": "Zalakaros",
+        "county_id": 9,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 327,
+        "name": "Emőd",
+        "county_id": 3,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 328,
+        "name": "Kisbér",
+        "county_id": 17,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 329,
+        "name": "Letenye",
+        "county_id": 9,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 330,
+        "name": "Borsodnádasd",
+        "county_id": 3,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 331,
+        "name": "Kozármisleny",
+        "county_id": 12,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 332,
+        "name": "Sajóbábony",
+        "county_id": 3,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 333,
+        "name": "Kalocsa",
+        "county_id": 11,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 334,
+        "name": "Dunavarsány",
+        "county_id": 7,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 335,
+        "name": "Vésztő",
+        "county_id": 1,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 336,
+        "name": "Pétervására",
+        "county_id": 2,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 337,
+        "name": "Budakeszi",
+        "county_id": 7,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 338,
+        "name": "Kadarkút",
+        "county_id": 4,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 339,
+        "name": "Jászárokszállás",
+        "county_id": 15,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 340,
+        "name": "Bicske",
+        "county_id": 5,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 341,
+        "name": "Csákvár",
+        "county_id": 5,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 342,
+        "name": "Pécel",
+        "county_id": 7,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 343,
+        "name": "Jánosháza",
+        "county_id": 6,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 344,
+        "name": "Villány",
+        "county_id": 12,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 345,
+        "name": "Szolnok",
+        "county_id": 15,
+        "county_seat": -1,
+        "county_level": -1
+    },
+    {
+        "id": 346,
+        "name": "Budapest 03",
+        "county_id": 10,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 347,
+        "name": "Abaújszántó",
+        "county_id": 3,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 348,
+        "name": "Verpelét",
+        "county_id": 2,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 349,
+        "name": "Kerekegyháza",
+        "county_id": 11,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 350,
+        "name": "Szob",
+        "county_id": 7,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 351,
+        "name": "Szikszó",
+        "county_id": 3,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 352,
+        "name": "Békés",
+        "county_id": 1,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 353,
+        "name": "Pusztaszabolcs",
+        "county_id": 5,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 354,
+        "name": "Füzesgyarmat",
+        "county_id": 1,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 355,
+        "name": "Törökbálint",
+        "county_id": 7,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 356,
+        "name": "Pásztó",
+        "county_id": 14,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 357,
+        "name": "Tapolca",
+        "county_id": 18,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 358,
+        "name": "Üllő",
+        "county_id": 7,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 359,
+        "name": "Ács",
+        "county_id": 17,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 360,
+        "name": "Eger",
+        "county_id": 2,
+        "county_seat": -1,
+        "county_level": -1
+    },
+    {
+        "id": 361,
+        "name": "Mórahalom",
+        "county_id": 8,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 362,
+        "name": "Sárvár",
+        "county_id": 6,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 363,
+        "name": "Létavértes",
+        "county_id": 16,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 364,
+        "name": "Heves",
+        "county_id": 2,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 365,
+        "name": "Pécsvárad",
+        "county_id": 12,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 366,
+        "name": "Várpalota",
+        "county_id": 18,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 367,
+        "name": "Füzesabony",
+        "county_id": 2,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 368,
+        "name": "Oroszlány",
+        "county_id": 17,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 369,
+        "name": "Jászberény",
+        "county_id": 15,
+        "county_seat": 0,
+        "county_level": 0
+    },
+    {
+        "id": 370,
+        "name": "Téglás",
+        "county_id": 16,
+        "county_seat": 0,
+        "county_level": 0
+    }
+]
