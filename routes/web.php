@@ -18,10 +18,23 @@ Route::get('/', function () {
     return view('index');
 })->name('home');
 
-Route::get('/dashboard', function () {
-    return view('dashboard');
-})->middleware(['auth'])->name('dashboard');
-
 Route::resource('posts', PostController::class);
+
+Route::prefix('portal')
+    ->middleware(['auth', 'role:user'])
+    ->group(function () {
+
+        Route::get('/dashboard', function () {
+            return view('dashboard');
+        })->name('dashboard');
+
+        Route::prefix('admin')
+            ->name('admin:')
+            ->middleware(['role:admin'])
+            ->group(function () {
+                Route::resource('users', \App\Http\Controllers\Admin\UserController::class);
+        });
+
+});
 
 require __DIR__.'/auth.php';
