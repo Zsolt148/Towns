@@ -8,11 +8,5 @@
       @foreach ($posts as $post)
         <x-post-layout :post=$post />
       @endforeach
-      @foreach ($posts as $post)
-        <x-post-layout :post=$post />
-      @endforeach
-      @foreach ($posts as $post)
-        <x-post-layout :post=$post />
-      @endforeach
     </div>
 </x-app-layout>

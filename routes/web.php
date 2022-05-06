@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Post2Controller;
 use App\Http\Controllers\PostController;
 use Illuminate\Support\Facades\Route;
 
@@ -22,6 +23,9 @@ Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth'])->name('dashboard');
 
-Route::resource('posts', PostController::class);
 
 require __DIR__.'/auth.php';
+
+Route::resource('post2s', App\Http\Controllers\Post2Controller::class);
+Route::get('posts', 'App\Http\Controllers\Post2Controller@getall')->name('posts.index');
+Route::get('posts/{id}', 'App\Http\Controllers\Post2Controller@show2')->name('posts.show');

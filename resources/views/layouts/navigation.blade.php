@@ -19,7 +19,7 @@
 						Posztok
 					</x-nav-link>
                     @auth
-						<x-nav-link :href="route('home')" :active="request()->routeIs('home')">
+						<x-nav-link :href="route('post2s.index')" :active="request()->routeIs('post2s.index')">
 							Posztjaim
 						</x-nav-link>
 						@if(Auth::user()->role == 'admin')
@@ -107,7 +107,7 @@
 					Regisztáció
 				</x-responsive-nav-link>
             @else
-				<x-responsive-nav-link :href="route('home')" :active="request()->routeIs('home')">
+				<x-responsive-nav-link :href="route('post2s.index')" :active="request()->routeIs('post2s.index')">
 					Posztjaim
 				</x-responsive-nav-link>
 				@if(Auth::user()->role == 'admin')
