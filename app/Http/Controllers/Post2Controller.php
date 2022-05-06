@@ -29,7 +29,13 @@ class Post2Controller extends AppBaseController
      */
     public function index()
     {
-        $post2s = $this->post2Repository->all(['user_id'=>auth()->user()->id]);
+        if(auth()->user()->role == 'admin'){
+
+            $post2s = $this->post2Repository->all();
+        }else{
+
+            $post2s = $this->post2Repository->all(['user_id'=>auth()->user()->id]);
+        }
 
         return view('post2s.index')
             ->with('post2s', $post2s);
