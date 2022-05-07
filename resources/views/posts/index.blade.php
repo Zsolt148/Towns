@@ -4,9 +4,9 @@
             Összes poszt
         </h2>
     </x-slot>
-    <div class="overflow-hidden p-10 max-w-7xl mx-auto flex flex-wrap justify-center">
-      @foreach ($posts as $post)
-        <x-post-layout :post=$post />
-      @endforeach
+    <div class="overflow-hidden max-w-7xl mx-auto flex flex-col justify-center">
+        @foreach ($posts as $post)
+            <x-post-layout :post=$post/>
+        @endforeach
     </div>
 </x-app-layout>

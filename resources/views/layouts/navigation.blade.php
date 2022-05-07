@@ -15,7 +15,7 @@
                     <x-nav-link :href="route('home')" :active="request()->routeIs('home')">
                         Kezdőlap
                     </x-nav-link>
-					<x-nav-link :href="route('posts.index')" :active="request()->routeIs('posts.index')">
+					<x-nav-link :href="route('posts.index')" :active="request()->routeIs('posts.index') || request()->routeIs('posts.show')">
 						Posztok
 					</x-nav-link>
                     @auth

@@ -15,10 +15,10 @@ class CreatePost2sTable extends Migration
     public function up()
     {
         Schema::create('post2s', function (Blueprint $table) {
-            $table->id('id');
+            $table->id();
             $table->string('title');
-            $table->string('content');
-            $table->unsignedInteger('user_id');
+            $table->longText('content');
+            $table->foreignId('user_id')->constrained()->cascadeOnDelete();
             $table->timestamps();
             $table->softDeletes();
         });

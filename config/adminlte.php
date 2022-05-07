@@ -234,7 +234,7 @@ return [
         // Sidebar items:
         [
             'text'        => 'Posts',
-            'url'         => 'post2s',
+            'url'         => 'portal/post2s',
             'active'      => ['admin/post2s*'],
             'icon'        => 'far fa-fw fa-file',
         ],

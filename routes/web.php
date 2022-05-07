@@ -18,10 +18,15 @@ Route::get('/', function () {
     return view('index');
 })->name('home');
 
+Route::get('posts', 'App\Http\Controllers\Post2Controller@indexGuest')->name('posts.index');
+Route::get('posts/{id}', 'App\Http\Controllers\Post2Controller@showGuest')->name('posts.show');
+
 // USERS routes
 Route::prefix('portal')
     ->middleware(['auth', 'role:user'])
     ->group(function () {
+
+        Route::resource('post2s', App\Http\Controllers\Post2Controller::class);
 
         Route::get('/dashboard', function () {
             return view('dashboard');
@@ -45,7 +50,3 @@ Route::prefix('admin')
     });
 
 require __DIR__.'/auth.php';
-
-Route::resource('post2s', App\Http\Controllers\Post2Controller::class);
-Route::get('posts', 'App\Http\Controllers\Post2Controller@getall')->name('posts.index');
-Route::get('posts/{id}', 'App\Http\Controllers\Post2Controller@show2')->name('posts.show');

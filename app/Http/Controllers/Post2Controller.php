@@ -4,10 +4,12 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\CreatePost2Request;
 use App\Http\Requests\UpdatePost2Request;
+use App\Models\Post2;
 use App\Repositories\Post2Repository;
 use App\Http\Controllers\AppBaseController;
 use Illuminate\Http\Request;
 use Flash;
+use Illuminate\Support\Facades\Gate;
 use Response;
 
 class Post2Controller extends AppBaseController
@@ -29,6 +31,8 @@ class Post2Controller extends AppBaseController
      */
     public function index()
     {
+        Gate::authorize('viewAny', Post2::class);
+
         if(auth()->user()->role == 'admin'){
 
             $post2s = $this->post2Repository->all();
@@ -41,7 +45,10 @@ class Post2Controller extends AppBaseController
             ->with('post2s', $post2s);
     }
 
-    public function getall()
+    /**
+     * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View
+     */
+    public function indexGuest()
     {
         $posts = $this->post2Repository->all();
 
@@ -56,6 +63,8 @@ class Post2Controller extends AppBaseController
      */
     public function create()
     {
+        Gate::authorize('create', Post2::class);
+
         return view('post2s.create');
     }
 
@@ -68,6 +77,8 @@ class Post2Controller extends AppBaseController
      */
     public function store(CreatePost2Request $request)
     {
+        Gate::authorize('create', Post2::class);
+
         $input = $request->all();
 
         $post2 = $this->post2Repository->create($input);
@@ -88,6 +99,8 @@ class Post2Controller extends AppBaseController
     {
         $post2 = $this->post2Repository->find($id);
 
+        Gate::authorize('show', $post2);
+
         if (empty($post2)) {
             Flash::error('Post2 not found');
 
@@ -103,7 +116,7 @@ class Post2Controller extends AppBaseController
      *
      * @return Response
      */
-    public function show2($id)
+    public function showGuest($id)
     {
         $post = $this->post2Repository->find($id);
 
@@ -127,6 +140,8 @@ class Post2Controller extends AppBaseController
     {
         $post2 = $this->post2Repository->find($id);
 
+        Gate::authorize('update', $post2);
+
         if (empty($post2)) {
             Flash::error('Post2 not found');
 
@@ -147,6 +162,8 @@ class Post2Controller extends AppBaseController
     public function update($id, UpdatePost2Request $request)
     {
         $post2 = $this->post2Repository->find($id);
+
+        Gate::authorize('update', $post2);
 
         if (empty($post2)) {
             Flash::error('Post2 not found');
@@ -173,6 +190,8 @@ class Post2Controller extends AppBaseController
     public function destroy($id)
     {
         $post2 = $this->post2Repository->find($id);
+
+        Gate::authorize('delete', $post2);
 
         if (empty($post2)) {
             Flash::error('Post2 not found');
